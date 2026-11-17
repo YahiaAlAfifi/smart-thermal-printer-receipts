@@ -89,4 +89,3 @@ Open `hardware/proteus/smart-thermal-printer.pdsprj` with Proteus. The project p
 ## Notes
 
 This is an academic prototype. The firmware contains fixed/sample receipt and temperature values for the demonstrated workflow; production use would require validated live sensor readings, printer-specific command support, safety interlocks, and fault handling.
-

@@ -1,0 +1,16 @@
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.eep
+*.bin
+
+# Proteus generated workspace and backup files
+*.workspace
+*.pdsbak
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
