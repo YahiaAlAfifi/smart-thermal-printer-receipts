@@ -49,7 +49,9 @@ Reset / start
 
 The paper travel calculation uses a 2.5 cm wheel diameter, 240 encoder pulses per revolution, and a 10 cm target paper length.
 
-![Electrical design and pin assignment](docs/assets/electrical-design.png)
+![Proteus wiring diagram](docs/assets/wiring-diagram.png)
+
+![Primary hardware components](docs/assets/hardware-components.png)
 
 ## Repository layout
 
@@ -75,7 +77,7 @@ The paper travel calculation uses a 2.5 cm wheel diameter, 240 encoder pulses pe
 
 Open `hardware/proteus/smart-thermal-printer.pdsprj` with Proteus. The project provides the simulation environment corresponding to the firmware and interface design.
 
-![Firmware control logic](docs/assets/firmware-logic.png)
+For a detailed, text-first explanation of the sensing, movement, printing, and reset behaviour, see [System Architecture](docs/ARCHITECTURE.md).
 
 ## Project context
 
